@@ -6,7 +6,7 @@ public class SDAdapterTF implements SDCard {
     public SDAdapterTF(TFCard tfCard) {
         this.tfCard = tfCard;
     }
-    @Override 
+    @Override
     public String readSD() {
         System.out.println("类适配器模式，读取TF卡");
         return tfCard.readTF();
