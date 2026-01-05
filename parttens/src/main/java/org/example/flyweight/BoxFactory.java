@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.HashMap;
 
 public class BoxFactory {
-    private HashMap<String,AbstractBox> map;
+    private final HashMap<String,AbstractBox> map;
 
     private BoxFactory(){
         map = new HashMap<String,AbstractBox>();
